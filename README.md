@@ -20,13 +20,11 @@ This C++ project is designed for a university programming course and implements 
 To run this project, you'll need a C++ compiler supporting C++17 or later. Clone the repository and compile the source files:
 
 ```bash
-git clone [repository-url]
-cd [repository-directory]
+git clone https://github.com/Asafeldman/movie-recommendation-system
+cd https://github.com/Asafeldman/movie-recommendation-system
 g++ -std=c++17 -o recommendation_system *.cpp
 ./recommendation_system
 ```
-
-Replace `[repository-url]` and `[repository-directory]` with your repository's URL and local directory name, respectively.
 
 ## Usage
 Execute the compiled application to start recommending movies. The system will prompt for user inputs to simulate interaction:
@@ -34,16 +32,3 @@ Execute the compiled application to start recommending movies. The system will p
 ```bash
 ./recommendation_system
 ```
-
-## Contributing
-Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-[Your Contact Information]
-
-## Acknowledgments
-- University programming course team for project guidelines.
-- Contributors and developers who have worked on this project.
